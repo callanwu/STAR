@@ -6,7 +6,21 @@ We propose a novel DEFT (Data-Efficient Fine-Tuning) method, STAR, to effectivel
 
 <p align="center"><img src='./assets/framework.png'  width=550> </p>
 
-# 📖Citation
+## Requirements
+```bash
+conda create -n star python=3.10
+conda activate star
+pip install -r requirments
+```
+
+## Run
+Our experiments are carried out with an NVIDIA A100 80GB GPU.
+```
+cd src
+bash run_gsm8k.sh ${dataset} ${al}
+```
+
+## 📖Citation
 
 ```bibtex
 @misc{zhang2024star,

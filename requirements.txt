@@ -1,0 +1,6 @@
+accelerate==0.22.0
+torch
+fire
+transformers
+datasets
+tqdm
