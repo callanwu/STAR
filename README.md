@@ -20,6 +20,10 @@ cd src
 bash run.sh ${dataset} ${al}
 ```
 
+## 🌻Acknowledgement
+This work is implemented by [LoftQ](https://github.com/yxli2123/LoftQ/tree/main) and [adapter-al](https://github.com/josipjukic/adapter-al).
+Sincere thanks for their efforts.
+
 ## 📖Citation
 
 ```bibtex
