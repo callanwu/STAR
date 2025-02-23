@@ -10,14 +10,14 @@ We propose a novel DEFT (Data-Efficient Fine-Tuning) method, STAR, to effectivel
 ```bash
 conda create -n star python=3.10
 conda activate star
-pip install -r requirments
+pip install -r requirements.txt
 ```
 
 ## Run
 Our experiments are carried out with an NVIDIA A100 80GB GPU.
 ```
 cd src
-bash run.sh ${dataset} ${al}
+bash run_star.sh ${dataset} ${al}
 ```
 
 ## 🌻Acknowledgement
