@@ -17,7 +17,7 @@ pip install -r requirments
 Our experiments are carried out with an NVIDIA A100 80GB GPU.
 ```
 cd src
-bash run_gsm8k.sh ${dataset} ${al}
+bash run.sh ${dataset} ${al}
 ```
 
 ## 📖Citation
